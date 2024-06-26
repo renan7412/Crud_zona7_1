@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario del usuario</title>
+</head>
+<body>
+    <h1>formulario del usuario <span th:text="${usuario.id}" ></span></h1>
+        <label>Nombre</label>
+        <p th:text="${usuario.nombre}"></p>
+        <label>Apellido</label>
+        <p th:text="${usuario.apellido}"></p>
+        <label>Email</label>
+        <p th:text="${usuario.email}"></p>
+        <label>Teléfono</label>
+        <p th:text="${usuario.telefono}"></p>
+
+</body>
+</html>
